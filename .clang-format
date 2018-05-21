@@ -1,0 +1,27 @@
+# Attempt to create clang-format configuration file to match Sun C-style.
+# http://mff.devnull.cz/pvu/common/cstyle.ms.pdf
+
+# BasedOnStyle: LLVM
+ColumnLimit: 80
+IndentWidth: 8
+UseTab: Always
+AlwaysBreakAfterReturnType: All
+# BreakBeforeBraces: Linux
+ContinuationIndentWidth: 4
+AllowShortIfStatementsOnASingleLine: false
+IndentCaseLabels: false
+AlignTrailingComments: true
+Language: Cpp
+Standard: Cpp03
+PointerAlignment: Right
+SortIncludes: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+# does not affect trailing block comments (/* - comments)
+SpacesBeforeTrailingComments: 1
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: false
+SpacesInSquareBrackets: false
+SpacesInParentheses: false
+SpaceBeforeParens: ControlStatements
